@@ -3,3 +3,33 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and should not be part of version control
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include tfplan files generated during 'terraform plan' command
+*.tfplan
+
+# Include variable definition files
+*.tfvars
+*.tfvars.json
+
+# Include sensitive JSON files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore sensitive files containing credentials
+.terraformrc
+terraform.rc
